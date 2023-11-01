@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- NOrmalize css -->
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <!-- General styles -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>10-dars vazifa</title>
+</head>
+<body>
+
+    <div class="container">
+        <form class="card">
+            <h1 class="card-title">Ish tajribam</h1>
+            <p class="card-text">Ish tajribangizni  kiriting</p>
+            <input type="checkbox" id="ish-tajriba" class="chechbox-one">
+            <label for="ish-tajriba">Ish tajribam mavjud emas</label>
+            
+            <div class="flex">
+                <div class="company">
+                    <label for="company">Kompaniya</label><br>
+                    <select class="company-select" id="company">
+                      <option value="google">Google</option>
+                      <option value="Epam">Epam</option>
+                      <option value="abutech">Abutech</option>
+                      <option value="datox">Datox</option>
+                    </select>
+                </div>
+                <div class="career">
+                    <label for="company">Mansab</label><br>
+                    <select class="company-select" >
+                      <option value="adminstrator">Adminstrator</option>
+                      <option value="moliyachi">Moliya bo'limi</option>
+                      <option value="director">Director</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="flex1 flex">
+                <div class="website">
+                    <label for="website" class="website">Website</label> <br>
+                    <input class="website-input" id="website" type="url" placeholder="Website">
+                </div>
+                <div class="career">
+                    <label for="company">Ish turi</label><br>
+                    <select class="company-select">
+                      <option value="ish-turi">Ish turi</option>
+                      <option value="dasturchi">daturchi</option>
+                    </select>
+                </div>
+            </div>
+            <div class="flex2">
+                <div class="start-time">
+                    <label for="month">
+                        Boshlangan vaqti
+                    </label><br>
+                    <select id="month" >
+                        <option value="yanvar">Oy</option>
+                        <option value="fevral">Fevral</option>
+                        <option value="mart">Mart</option>
+                        <option value="aprel">Aprel</option>
+                        <option value="may">May</option>
+                        <option value="iyun">Iyun</option>
+                        <option value="iyul">Iyul</option>
+                        <option value="avgust">Avgust</option>
+                        <option value="sentyabr">Sentyabr</option>
+                        <option value="oktyabr">Oktyabr</option>
+                        <option value="noyabr">Noyabr</option>
+                        <option value="dekabr">Dekabr</option>
+                      </select>
+                      <select class="year">
+                        <option value="volvo">Yil</option>
+                        <option value="saab">2021</option>
+                        <option value="fiat">2022</option>
+                        <option value="audi">2023</option>
+                      </select>
+                </div>
+                <div class="end-time">
+                    <label for="month1">
+                        Tugagan vaqti
+                    </label><br>
+                    <select id="month1">
+                        <option value="yanvar">Oy</option>
+                        <option value="fevral">Fevral</option>
+                        <option value="mart">Mart</option>
+                        <option value="aprel">Aprel</option>
+                        <option value="may">May</option>
+                        <option value="iyun">Iyun</option>
+                        <option value="iyul">Iyul</option>
+                        <option value="avgust">Avgust</option>
+                        <option value="sentyabr">Sentyabr</option>
+                        <option value="oktyabr">Oktyabr</option>
+                        <option value="noyabr">Noyabr</option>
+                        <option value="dekabr">Dekabr</option>
+                      </select>
+                      <select class="year" >
+                        <option value="volvo">Yil</option>
+                        <option value="saab">2021</option>
+                        <option value="fiat">2022</option>
+                        <option value="audi">2023</option>
+                      </select>
+                </div>
+            </div> <br>
+
+            <input type="checkbox" id="work-now" class="chechbox-one">
+            <label for="work-now">Hozirda shu joyda ishlayman</label>
+            <br><br>
+            <label for="izoh">Izoh</label>
+            <br><br>
+            <textarea class="textarea" name="izoh" id="izoh" cols="30" rows="10">Ish haqida izoh qoldiring</textarea>
+
+
+            <div class="buttons">
+       <input type="button" value="Ortga">
+         <input type="button" value="Submit">
+            </div>
+        </form>
+    </div>
+
+
+</body>
+</html>

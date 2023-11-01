@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- NOrmalize css -->
+    <link rel="stylesheet" href="../styles/normalize.css"/>
+    <!-- General styles -->
+    <link rel="stylesheet" href="../styles/style.css"/>
+    <title>10-dars vazifa</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="personal card">
+        <h1>Shaxsiy ma’lumotlar</h1>
+        <p>Ma’lumotlaringizni kiriting</p>
+        <form>
+          <div class="label">
+            <label for="ismingiz">Ismingiz</label>
+            <input type="text" id="ismingiz" placeholder="Ismingiz"/>
+          </div>
+          <div class="label">
+            <label for="soha">Soha</label>
+            <input type="text" id="soha" placeholder="Soha"/>
+          </div>
+          <div class="flex">
+            <div class="company">
+              <label for="state">Davlat</label><br />
+              <select class="company-select" id="state">
+                <option value="Davlat">Davlat</option>
+                <option value="new-zealad">new zealand</option>
+                <option value="uzbekistan">Uzbekistan</option>
+                <option value="kazakhstan">Kazakhstan</option>
+              </select>
+            </div>
+            <div class="career">
+              <label for="city">Shahar</label><br />
+              <select class="company-select" id="city">
+                <option value="shahar">Shahar</option>
+                <option value="tosheknt">Toshkent</option>
+                <option value="fergana">Farg'ona</option>
+                <option value="andijan">Andijon</option>
+              </select>
+            </div>
+          </div>
+          <br/>
+          <div class="label">
+            <label for="yashash-joyi">Yashash joyi</label>
+            <input type="text" placeholder="Joy" id="yashash-joyi"/>
+          </div>
+
+          <div class="flex">
+            <div class="company">
+              <label for="birthday">Tug'ilgan Sana</label><br/>
+              <input class="company-select" type="date" id="birthday"/>
+            </div>
+            <div class="tel">
+              <label for="tel">Telefon Raqam</label><br/>
+            <input type="tel" class="company-select" placeholder="UZ+9989" id="tel">
+            </div>
+          </div>
+          <br/>
+          <div class="label">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email"/>
+          </div>
+          <div class="buttons">
+            <input type="button" value="Ortga"/>
+            <input type="button" value="Keyingisi"/>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  
+  </body>
+</html>

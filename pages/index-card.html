@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- NOrmalize css -->
+    <link rel="stylesheet" href="../styles/normalize.css"/>
+    <!-- General styles -->
+    <link rel="stylesheet" href="../styles/style.css"/>
+    <title>10-dars vazifa</title>
+  </head>
+  <body>
+
+<div class="container">
+    <form class=" education card"> 
+        <h1 class="card-title">Ta’lim darajangiz</h1>
+            <p class="card-text">Ta’lim olgan joylaringizni kiriting</p>
+            <input type="checkbox" id="talim-tajriba" class="chechbox-one">
+            <label for="talim-tajriba">Ta’lim darajam mavjud emas</label><br><br>
+            <div class="label">
+                <label for="joy-nomi">Joy Nomi</label>
+                <input type="text" id="joy-nomi" placeholder="Joy nomi"/>
+              </div>
+              <div class="label">
+                <label for="daraja">Daraja</label>
+                <input type="text" id="daraja" placeholder="Daraja"/>
+              </div>
+
+
+              <div class="flex">
+                <div class="company">
+                    <label for="start">Boshlangan vaqti</label><br>
+                    <select class="company-select" id="start">
+                      <option value="2020">Boshlangan vaqti</option>
+                      <option value="2021">2021</option>
+                      <option value="2022">2022</option>
+                      <option value="2023">2023</option>
+                    </select>
+                </div>
+                <div class="career">
+                    <label for="the-end">Tugagan vaqti</label><br>
+                    <select class="company-select" id="the-end" >
+                      <option value="adminstrator">Tugagan vaqt</option>
+                      <option value="moliyachi">2023</option>
+                      <option value="director">2024</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="flex1 flex">
+                <div class="diplom">
+                    <label >O'zlashtirish</label><br>
+                    <select class="company-select">
+                      <option value="eng-yuqori-baho">0</option>
+                      <option value="eng-yuqori-baho">Bundan yuqori bal mavjud emas</option>
+                    </select>
+                </div>
+                <div class="career">
+                    <label for="high">Eng yuqori baho</label>
+                    <select class="company-select" id="high">
+                      <option value="eng-yuqori-baho">Eng yuqori baho</option>
+                      <option value="eng-yuqori-baho">Bundan yuqori bal mavjud emas</option>
+                    </select>
+                </div>
+            </div><br>
+
+            <div class="label">
+                <label for="diplom-rasmi">Diplom rasmi</label>
+                <input type="file" id="diplom-rasmi" >
+            </div>
+    </form>
+</div>
+  
+  </body>
+</html>
